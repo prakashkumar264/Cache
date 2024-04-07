@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache", "Cache\Cache.csproj", "{45DA6F1F-4221-4E80-81E5-95F219E2E7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{44BE7529-ACC1-46A6-8C9E-E5F84290D4EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45DA6F1F-4221-4E80-81E5-95F219E2E7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DA6F1F-4221-4E80-81E5-95F219E2E7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DA6F1F-4221-4E80-81E5-95F219E2E7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DA6F1F-4221-4E80-81E5-95F219E2E7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BE7529-ACC1-46A6-8C9E-E5F84290D4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BE7529-ACC1-46A6-8C9E-E5F84290D4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BE7529-ACC1-46A6-8C9E-E5F84290D4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BE7529-ACC1-46A6-8C9E-E5F84290D4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0180404-C73F-4E91-8F76-64F17EA571FF}
+	EndGlobalSection
+EndGlobal
