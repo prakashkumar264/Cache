@@ -10,7 +10,7 @@ namespace Cache.Services
 
         public GarnetCacheService(ConfigSettings config)
         {
-            var connectionParts = config.GarnetConnection.Split(':');
+            var connectionParts = config.Connection.Split(':');
             if (connectionParts.Length != 2 || !int.TryParse(connectionParts[1], out int port))
             {
                 throw new ArgumentException("Invalid Garnet connection string format.");

@@ -8,7 +8,9 @@ namespace Cache.Configuration
 {
     public class ConfigSettings
     {
-        public string GarnetConnection { get; set; }
+        public string Connection { get; set; }
+
+        //redism
         public string CacheType { get; set; }
     }
 }

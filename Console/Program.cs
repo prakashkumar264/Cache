@@ -5,16 +5,22 @@ using Cache.Services;
 
 var config = new ConfigSettings
 {
-    GarnetConnection = "127.0.0.1:3278",
-    CacheType = "Garnet"
+    Connection = "127.0.0.1:6379",
+    CacheType = "Redis"
 };
 
 ICacheInterface cacheService = null;
+
 
 if (config.CacheType == "Garnet")
 {
     cacheService = new GarnetCacheService(config);
 }
+if (config.CacheType == "Redis")
+{
+    cacheService = new RedisCacheService(config);
+}
+
 else
 {
     throw new NotSupportedException($"Cache type '{config.CacheType}' is not supported.");
